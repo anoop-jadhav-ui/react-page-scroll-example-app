@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <PageScrollProgressBar
-        AppRef={AppRef}
+        AppRef={AppRef.current}
         progressBarColor="red"
         progressBarBgColor="#f2f2f2"
         progressBarHeight="6px"
